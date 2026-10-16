@@ -64,4 +64,30 @@
            name="android_device_samsung_slsi_sepolicy"
            remote="LOS"
            revision="lineage-24.0" />
+
+  <!-- IMS packages -->
+  <remove-project path="hardware/lineage/generic-ims" optional="true" />
+  <remove-project path="packages/modules/ImsStack" optional="true" />
+  <remove-project path="packages/modules/ImsMedia" optional="true" />
+  <remove-project path="packages/apps/CarrierConfig" optional="true" />
+  <project path="hardware/lineage/generic-ims"
+           name="android_hardware_lineage_generic-ims"
+           remote="NEX"
+           revision="voltage-17-c1s-ims" />
+
+  <project path="packages/modules/ImsStack"
+           name="android_packages_modules_ImsStack"
+           remote="NEX"
+           revision="voltage-17-c1s-ims" />
+
+  <project path="packages/modules/ImsMedia"
+           name="android_packages_modules_ImsMedia"
+           remote="NEX"
+           revision="voltage-17-c1s-ims" />
+
+  <project path="packages/apps/CarrierConfig"
+           name="android_packages_apps_CarrierConfig"
+           remote="NEX"
+           revision="voltage-17-c1s-ims" />
+
 </manifest>
