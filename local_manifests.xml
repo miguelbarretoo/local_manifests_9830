@@ -6,9 +6,9 @@
   
 <!--Trees-->
   <project path="device/samsung/c1s"
-           name="android_device_samsung_c1s"
-           remote="LOS"
-           revision="lineage-23.2" />
+           name="android_device_samsung_c1s-ims"
+           remote="NEX"
+           revision="voltage-17-c1s-ims" />
            
   <project path="vendor/samsung/c1s"
            name="proprietary_vendor_samsung_c1s"
